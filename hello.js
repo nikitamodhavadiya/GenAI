@@ -1,7 +1,7 @@
 import {OpenAI} from 'openai';
 
 const client = new OpenAI({
-    apiKey: 'YOUR_API_KEY',
+    apiKey: 'Your API Key',
 });
 
 client.chat.completions
